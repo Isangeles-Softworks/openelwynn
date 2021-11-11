@@ -1,0 +1,5 @@
+port:8000
+module:elwynn
+update-break:16
+action-min-range:50.000000
+host:

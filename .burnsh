@@ -1,0 +1,5 @@
+module:elwynn
+lang:english
+server:;
+server-user:local;local
+debug:true

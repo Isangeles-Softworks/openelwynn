@@ -1,0 +1,10 @@
+#!/bin/sh
+go install github.com/isangeles/fire@latest && cp ~/go/bin/fire server
+go install github.com/isangeles/ignite@latest && cp ~/go/bin/ignite ai
+go install github.com/isangeles/burnsh@latest && cp ~/go/bin/burnsh cli
+go install github.com/isangeles/mural@latest && cp ~/go/bin/mural gui
+if [ ! -d "data/modules/elwynn" ]; then
+	git clone https://github.com/isangeles/elwynn data/modules/elwynn
+else
+	cd data/modules/elwynn; git pull origin master
+fi

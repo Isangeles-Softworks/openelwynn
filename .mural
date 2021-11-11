@@ -1,0 +1,14 @@
+module:elwynn
+button-click-sound:click1.mp3
+main-font:SIMSUN.ttf
+server:;8000
+lang:english
+debug:true
+fullscreen:false
+resolution:1920.000000;1080.000000
+map-full:false
+menu-music:maintheme.ogg
+music-volume:0.000000
+map-fow:true
+music-mute:true
+server-user:local;local
