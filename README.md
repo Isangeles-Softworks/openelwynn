@@ -59,7 +59,7 @@ Read [Ignite](https://github.com/Isangeles/mural) repository description and doc
 * Isangeles <<dev@isangeles.pl>>
 
 ## License
-Copyright 2021 Dariusz Sikora <<dev@isangeles.pl>>
+Copyright 2021 Isangeles Softworks <<softworks@isangeles.pl>>
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
