@@ -1,21 +1,24 @@
 ## Introduction
-OpenElwynn is an RPG game placed in well known Elwynn Forest area from WoW.
+OpenElwynn is an 2D RPG game placed in well known Elwynn Forest area from WoW.
 
-By default, the game after starting is begin hosted on the local game server, allowing any number of players to join the game.
+Game comes with TCP game server, allowing any number of players to join and play together.
 
 The game uses [Flame](https://github.com/Isangeles/flame) engine and [Mural](https://github.com/Isangeles/mural) 2D GUI as the user interface.
-## Usage
+
 This repository contains two scripts `update` and `start`.
 
-`update` script builds all executable files for the game from the latest sources and pulls current game content from the repository.
+`update` installs/updates the hame by building all executable files from the latest sources and pulls current game content from the repository.
 
-`start` script starts the game by starting local games server, game AI, and user 2D GUI.
+`start` starts the game by starting local games server, game AI, and user 2D GUI.
+## Installation
+You need to first install [Go](https://golang.org), [Git](https://git-scm.com), and some kind of Unix shell(e.g. Bash or Zsh).
 
-To start the game first start the `update` script:
+To install the game start the `update` script:
 ```
 ./update
 ```
-Next, start the game with the `start` script:
+## Run
+Start the game by executing the `start` script:
 ```
 ./start
 ```
@@ -42,19 +45,19 @@ The game uses [Fire](https://github.com/Isangeles/fire) as the game server.
 
 Other players can join the game by configuring their GUI with the address and port of the game server in the `.mural` configuration file.
 
-After connecting to the server players need to authenticate with a user ID and password.
+After connecting to the server, players need to authenticate with a user ID and password.
 
 Users can be created by adding a new directory in the `data/users` with the `.user` file containing the password. The user directory name is used as a user ID.
 
 Read [Fire](https://github.com/Isangeles/fire) repository description and documentation for more details about using and configuring the game server.
 ## AI
-The game uses [Ignite](https://github.com/Isangeles/ignie) as game AI.
+The game uses [Ignite](https://github.com/Isangeles/ignite) as game AI.
 
 `ai` executable start the game AI.
 
 Configuration values for AI are stored in the `.ignite` file.
 
-Read [Ignite](https://github.com/Isangeles/mural) repository description and documentation for more details about using and configuring the game AI.
+Read [Ignite](https://github.com/Isangeles/ignite) repository description and documentation for more details about using and configuring the game AI.
 ## Contact
 * Isangeles <<dev@isangeles.pl>>
 
