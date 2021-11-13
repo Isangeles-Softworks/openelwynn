@@ -7,7 +7,7 @@ The game uses [Flame](https://github.com/Isangeles/flame) engine and [Mural](htt
 
 This repository contains two scripts `update` and `start`.
 
-`update` installs/updates the hame by building all executable files from the latest sources and pulls current game content from the repository.
+`update` installs/updates the game by building all executable files from the latest sources and pulls current game content from the repository.
 
 `start` starts the game by starting local games server, game AI, and user 2D GUI.
 ## Installation
