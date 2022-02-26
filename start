@@ -1,5 +1,0 @@
-#!/bin/sh
-./server &
-sleep 2
-./ai &
-./gui
