@@ -11,19 +11,16 @@ This repository contains two scripts `update` and `start`.
 
 `start` starts the game by starting local games server, game AI, and user 2D GUI.
 ## Installation
-You need to first install [Go](https://golang.org), [Git](https://git-scm.com), and some kind of Unix shell(e.g. Bash or Zsh).
+Download and unpack the game build for your platform: [Linux(x86-64)](https://my.opendesktop.org/s/ctjfGeFAtjBHEXa)
 
-To install the game start the `update` script:
-```
-./update
-```
+You can also build game yourself by executing `update` shell script.
 ## Run
-Start the game by executing the `start` script:
+Start the game by executing the `start` executable:
 ```
 ./start
 ```
 ## Game content
-After starting the `update` script, game content will be placed in the `data/modules/elwynn` directory.
+Game content is placed in the `data/modules/elwynn` directory.
 
 Game content alone is hosted in a separate repository [here](https://github.com/Isangeles/elwynn).
 
@@ -62,7 +59,7 @@ Read [Ignite](https://github.com/Isangeles/ignite) repository description and do
 * Isangeles <<dev@isangeles.pl>>
 
 ## License
-Copyright 2021 Isangeles Softworks <<softworks@isangeles.pl>>
+Copyright 2021-2022 Isangeles Softworks <<softworks@isangeles.pl>>
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
