@@ -11,7 +11,10 @@ This repository contains two scripts `update` and `start`.
 
 `start` starts the game by starting local games server, game AI, and user 2D GUI.
 ## Installation
-Download and unpack the game build for your platform: [Linux(x86-64)](https://my.opendesktop.org/s/ctjfGeFAtjBHEXa)
+Download and unpack the game build for your platform:
+
+* [Linux(x86-64)](https://my.opendesktop.org/s/ctjfGeFAtjBHEXa)
+* [macOS(arm64)](https://my.opendesktop.org/s/FXyfCYqndaLPCf3)
 
 You can also build game yourself by executing `update` shell script.
 ## Run
