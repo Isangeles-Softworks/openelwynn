@@ -5,18 +5,21 @@ Game comes with TCP game server, allowing any number of players to join and play
 
 The game uses [Flame](https://github.com/Isangeles/flame) engine and [Mural](https://github.com/Isangeles/mural) 2D GUI as the user interface.
 
-This repository contains two scripts `update` and `start`.
-
-`update` installs/updates the game by building all executable files from the latest sources and pulls current game content from the repository.
-
-`start` starts the game by starting local games server, game AI, and user 2D GUI.
+This repository contains configuration files for the game server and interface, a makefile for building/updating the game, and a `start` script that starts the game by running the local games server, game AI, and user 2D GU.
 ## Installation
 Download and unpack the game build for your platform:
 
 * [Linux(x86-64)](https://my.opendesktop.org/s/ctjfGeFAtjBHEXa)
 * [macOS(arm64)](https://my.opendesktop.org/s/FXyfCYqndaLPCf3)
 
-You can also build game yourself by executing `update` shell script.
+You can also build game yourself with make:
+```
+make build
+```
+Or update existing installation with:
+```
+make up
+```
 ## Run
 Start the game by executing the `start` executable:
 ```
