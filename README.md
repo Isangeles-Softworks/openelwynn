@@ -11,6 +11,7 @@ Download and unpack the game build for your platform:
 
 * [Linux(x86-64)](https://my.opendesktop.org/s/ctjfGeFAtjBHEXa)
 * [macOS(arm64)](https://my.opendesktop.org/s/FXyfCYqndaLPCf3)
+* [Windows(x86-64)](https://my.opendesktop.org/s/q52jJCZtpJdy3bb)
 
 You can also build game yourself with make:
 ```
@@ -21,7 +22,7 @@ Or update existing installation with:
 make up
 ```
 ## Run
-Start the game by executing the `start` executable:
+Start the game by executing the `start` executable(`start.bat` on Windows):
 ```
 ./start
 ```
