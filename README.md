@@ -5,26 +5,46 @@ Game comes with TCP game server, allowing any number of players to join and play
 
 The game uses [Flame](https://github.com/Isangeles/flame) engine and [Mural](https://github.com/Isangeles/mural) 2D GUI as the user interface.
 
-This repository contains configuration files for the game server and interface, a makefile for building/updating the game, and a `start` script that starts the game by running the local games server, game AI, and user 2D GU.
+This repository contains configuration files for the game server and interface, a makefile for building/updating the game, and a `start` script that starts the game by running the local games server, game AI, and user interface.
 ## Installation
-Download and unpack the game build for your platform:
+To install pre-build game download and unpack the game build for your platform:
 
 * [Linux(x86-64)](https://my.opendesktop.org/s/ctjfGeFAtjBHEXa)
 * [macOS(arm64)](https://my.opendesktop.org/s/FXyfCYqndaLPCf3)
 * [Windows(x86-64)](https://my.opendesktop.org/s/q52jJCZtpJdy3bb)
+## Run
+Start the game by executing the `start` or `start.bat`(Windows) executable:
+```
+./start
+```
+## Build/Update
+You can also build the game from scratch yourself.
 
-You can also build game yourself with make:
+Before performing the build you need to obtain specific dependencies.
+
+Basic dependencies are [Git](https://git-scm.com/), [Go](https://go.dev/), Make, OpenGL development libraries, and some audio development libraries.
+
+For more details check the sub-section for your platform below.
+### Linux
+On Fedora-like distribution intall: `go` `libX11-devel` `libXcursor-devel` `libXrandr-devel` `libXinerama-devel` `mesa-libGL-devel` `libXi-devel` `libXxf86vm-devel`, `alsa-lib-devel`.
+
+On other distributions, you need to install the equivalence of these packages.
+### macOS
+Install [Go](https://go.dev/) and Xcode or Command Line Tools for Xcode.
+### Windows
+Install [Git](https://git-scm.com/), [Go](https://go.dev/), [MinGW](https://osdn.net/projects/mingw/), and Make.
+
+You can easily install all these dependencies with [Chocolatey](https://chocolatey.org/).
+### Starting build/update
+After installing all dependencies you use `make` to build/update the game.
+
+To build the game:
 ```
 make build
 ```
-Or update existing installation with:
+To update existing installation:
 ```
 make up
-```
-## Run
-Start the game by executing the `start` executable(`start.bat` on Windows):
-```
-./start
 ```
 ## Game content
 Game content is placed in the `data/modules/elwynn` directory.
@@ -33,7 +53,7 @@ Game content alone is hosted in a separate repository [here](https://github.com/
 
 The whole game content is a [Flame](https://github.com/Isangeles/flame) module.
 
-Read [Flame](https://github.com/Isangeles/mural) repository description and documentation for more details about using and configuring game modules.
+Read [Flame](https://github.com/Isangeles/flame) repository description and documentation for more details about using and configuring game modules.
 ## Interface
 The game uses [Mural](https://github.com/Isangeles/mural) as the 2D user interface.
 
