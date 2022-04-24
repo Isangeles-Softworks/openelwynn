@@ -26,7 +26,7 @@ Basic dependencies are [Git](https://git-scm.com/), [Go](https://go.dev/), Make,
 
 For more details check the sub-section for your platform below.
 ### Linux
-On Fedora-like distribution install: `go` `libX11-devel` `libXcursor-devel` `libXrandr-devel` `libXinerama-devel` `mesa-libGL-devel` `libXi-devel` `libXxf86vm-devel`, `alsa-lib-devel`.
+On Fedora-like distribution install: `go` `libX11-devel` `libXcursor-devel` `libXrandr-devel` `libXinerama-devel` `mesa-libGL-devel` `libXi-devel` `libXxf86vm-devel` `alsa-lib-devel`.
 
 On other distributions, you need to install the equivalence of these packages.
 ### macOS
