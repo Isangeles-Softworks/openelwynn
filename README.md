@@ -18,15 +18,15 @@ Start the game by executing the `start` or `start.bat`(Windows) executable:
 ./start
 ```
 ## Build/Update
-You can also build the game from scratch yourself.
+You can also build the game from scratch yourself or update all core components and game content to latest versions.
 
-Before performing the build you need to obtain specific dependencies.
+Before performing the build/update you need to obtain specific dependencies.
 
 Basic dependencies are [Git](https://git-scm.com/), [Go](https://go.dev/), Make, OpenGL development libraries, and some audio development libraries.
 
 For more details check the sub-section for your platform below.
 ### Linux
-On Fedora-like distribution intall: `go` `libX11-devel` `libXcursor-devel` `libXrandr-devel` `libXinerama-devel` `mesa-libGL-devel` `libXi-devel` `libXxf86vm-devel`, `alsa-lib-devel`.
+On Fedora-like distribution install: `go` `libX11-devel` `libXcursor-devel` `libXrandr-devel` `libXinerama-devel` `mesa-libGL-devel` `libXi-devel` `libXxf86vm-devel`, `alsa-lib-devel`.
 
 On other distributions, you need to install the equivalence of these packages.
 ### macOS
@@ -35,8 +35,8 @@ Install [Go](https://go.dev/) and Xcode or Command Line Tools for Xcode.
 Install [Git](https://git-scm.com/), [Go](https://go.dev/), [MinGW](https://osdn.net/projects/mingw/), and Make.
 
 You can easily install all these dependencies with [Chocolatey](https://chocolatey.org/).
-### Starting build/update
-After installing all dependencies you use `make` to build/update the game.
+### Run build/update
+After installing all dependencies use `make` to build/update the game.
 
 To build the game:
 ```
