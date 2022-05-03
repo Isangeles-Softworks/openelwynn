@@ -83,10 +83,10 @@ Configuration values for AI are stored in the `.ignite` file.
 
 Read [Ignite](https://github.com/Isangeles/ignite) repository description and documentation for more details about using and configuring the game AI.
 ## Contact
-* Isangeles <<dev@isangeles.pl>>
+* Isangeles <<ds@isangeles.dev>>
 
 ## License
-Copyright 2021-2022 Isangeles Softworks <<softworks@isangeles.pl>>
+Copyright 2021-2022 Isangeles Softworks <<softworks@isangeles.dev>>
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
