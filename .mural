@@ -3,7 +3,7 @@ fullscreen:true
 map-fow:true
 resolution:1920.000000;1080.000000
 music-mute:true
-server-user:local;local
+server-user:admin;admin
 module:elwynn
 debug:true
 map-full:false
