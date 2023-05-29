@@ -12,3 +12,4 @@ button-click-sound:click1.mp3
 main-font:SIMSUN.ttf
 music-volume:0.000000
 server:;8000
+server-close:true
