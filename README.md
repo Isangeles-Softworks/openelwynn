@@ -5,7 +5,7 @@ Game comes with TCP game server, allowing any number of players to join and play
 
 The game uses [Flame](https://github.com/Isangeles/flame) engine and [Mural](https://github.com/Isangeles/mural) 2D GUI as the user interface.
 
-This repository contains configuration files for the game server and interface, a makefile for building/updating the game, and a `start` script that starts the game by running the local games server, game AI, and user interface.
+This repository contains configuration files for the game server and interface, a makefile for building/updating the game, and a `start` script that starts the game by running the local game server, game AI, and user interface.
 
 ## Screenshots
 <img src="https://flame.isangeles.dev/games/openelwynn/screenshot1.png" width="200"><img src="https://flame.isangeles.dev/games/openelwynn/screenshot2.png" width="200"><img src="https://flame.isangeles.dev/games/openelwynn/screenshot3.png" width="200">
