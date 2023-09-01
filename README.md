@@ -21,6 +21,10 @@ Start the game by executing the `start` or `start.bat`(Windows) executable:
 ```
 ./start
 ```
+You can also start the game without the local server by executing `gui` or `gui.exe`(Windows) executable:
+```
+./gui
+```
 ## Build/Update
 You can also build the game from scratch yourself or update all core components and game content to latest versions.
 
