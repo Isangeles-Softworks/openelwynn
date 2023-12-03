@@ -16,6 +16,8 @@ To install pre-build game download and unpack the game build for your platform:
 * [Linux(x86-64)](https://my.opendesktop.org/s/ctjfGeFAtjBHEXa)
 * [macOS(arm64)](https://my.opendesktop.org/s/FXyfCYqndaLPCf3)
 * [Windows(x86-64)](https://my.opendesktop.org/s/q52jJCZtpJdy3bb)
+
+You can find all latest builds [here](https://my.opendesktop.org/s/H4w5fXbfW7ZETsk).
 ## Run
 Start the game by executing the `start` or `start.bat`(Windows) executable:
 ```
@@ -82,6 +84,8 @@ After connecting to the server, players need to authenticate with a user ID and 
 Users can be created by adding a new directory in the `data/users` with the `.user` file containing the password. The user directory name is used as a user ID.
 
 Read [Fire](https://github.com/Isangeles/fire) repository description and documentation for more details about using and configuring the game server.
+
+If you interested in setting up the game server, check the docker image for [OpenElwynn server](https://github.com/isangeles-softworks/openelwynn-server-docker).
 ## AI
 The game uses [Ignite](https://github.com/Isangeles/ignite) as game AI.
 
