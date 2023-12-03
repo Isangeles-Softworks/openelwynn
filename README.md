@@ -23,12 +23,12 @@ Start the game by executing the `start` or `start.bat`(Windows) executable:
 ```
 ./start
 ```
-You can also start the game without the local server by executing `gui` or `gui.exe`(Windows) executable:
+You can also start the game without the local server(single player mode) by executing `gui` or `gui.exe`(Windows) executable:
 ```
 ./gui
 ```
 ## Build/Update
-You can also build the game from scratch yourself or update all core components and game content to latest versions.
+You can build the game from scratch yourself or update all core components and game content to latest versions.
 
 Before performing the build/update you need to obtain specific dependencies.
 
@@ -75,7 +75,7 @@ Read [Mural](https://github.com/Isangeles/mural) repository description and docu
 ## Multiplayer
 The game uses [Fire](https://github.com/Isangeles/fire) as the game server.
 
-`server` executable starts games server on the address specified in the `.fire` configuration file.
+`server` executable starts game server on the address specified in the `.fire` configuration file.
 
 Other players can join the game by configuring their GUI with the address and port of the game server in the `.mural` configuration file.
 
