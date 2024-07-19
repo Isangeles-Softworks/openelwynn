@@ -42,7 +42,7 @@ On other distributions, you need to install the equivalence of these packages.
 ### macOS
 Install [Go](https://go.dev/) and Xcode or Command Line Tools for Xcode.
 ### Windows
-Install [Git](https://git-scm.com/), [Go](https://go.dev/), [MinGW](https://osdn.net/projects/mingw/), and Make.
+Install [Git](https://git-scm.com/), [Go](https://go.dev/), MinGW, and Make.
 
 You can easily install all these dependencies with [Chocolatey](https://chocolatey.org/).
 ### Run build/update
@@ -98,7 +98,7 @@ Read [Ignite](https://github.com/Isangeles/ignite) repository description and do
 * Isangeles <<ds@isangeles.dev>>
 
 ## License
-Copyright 2021-2023 Isangeles Softworks <<softworks@isangeles.dev>>
+Copyright 2021-2024 Isangeles Softworks <<softworks@isangeles.dev>>
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
