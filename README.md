@@ -98,7 +98,7 @@ Read [Ignite](https://github.com/Isangeles/ignite) repository description and do
 * Isangeles <<ds@isangeles.dev>>
 
 ## License
-Copyright 2021-2024 Isangeles Softworks <<softworks@isangeles.dev>>
+Copyright 2021-2026 Isangeles Softworks <<softworks@isangeles.dev>>
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
