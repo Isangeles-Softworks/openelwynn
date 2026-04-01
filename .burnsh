@@ -1,5 +1,5 @@
 module:elwynn
 lang:english
 server:;
-server-user:local;local
+server-user:admin;admin
 debug:true
